@@ -1,0 +1,25 @@
+.card-container {
+    width: 12rem; 
+    height: auto; /* Let the padding determine the height! */
+    padding: 10px 15px; /* Tightly hugs the text */
+    border-radius: 8px; /* Classic sleek corners */
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns text to the left like TasksBoard */
+    /* Sleek styling */
+    background-color: rgba(255, 255, 255, 0.05); /* Very subtle transparent background */
+    color: #fff; /* White text */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Very subtle solid border, no more dashes! */
+    transition: all 0.2s ease;
+
+    border: 1px dashed rgba(255, 255, 255, 0.4); 
+    transition: all 0.2s ease;
+}
+
+/* This targets the new span we made */
+.create-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
